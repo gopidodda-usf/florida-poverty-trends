@@ -151,7 +151,7 @@ You can explore the interactive dashboard on [**Tableau Public**](https://bit.ly
 
 ### 💻 Code Repository
 
-Data script is available in the `/Code/` folder of this [**GitHub Repository**](https://bit.ly/DVFinalProjectGD-GitHub).
+Data script is available in the `/Code/` folder of this [**GitHub Repository**](https://bit.ly/SOTRProjectGD-GitHub).
 
 ---
 
