@@ -42,9 +42,8 @@ This project is designed to address the following key questions:
 │   ├── Chart-2.png                             # Tableau Chart
 │   ├── Chart-3.png                             # Tableau Chart
 │   └── Florida-Map.png                         # Map image
-├── Report/
-│   └── Summary-Report.pdf/                     # Summary of key findings and insights
-└── README.md                                   # Project documentation
+├── README.md                                   # Project documentation
+└── Summary-Report.pdf                          # Summary of key findings and insights
 ```
 
 ---
