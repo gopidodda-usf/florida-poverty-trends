@@ -79,7 +79,7 @@ To bring this analysis to life, the following tools were used:
 
 These counties were selected to represent a mix of **urban, suburban, and regional economies**, enabling meaningful comparison.
 
-![Dashboard Preview](path/to/your-image.png)
+![Dashboard Preview](Images/Florida-Map.png)
 
 ---
 
