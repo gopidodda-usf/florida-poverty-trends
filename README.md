@@ -108,7 +108,7 @@ Hillsborough County was evaluated against peer counties to assess:
 - Differences across pre- and post-pandemic periods  
 
 #### 5. Visualization  
-An interactive [**Tableau dashboard**](https://bit.ly/DVFinalProjectGD-Tableau) was developed to present findings in a clear and accessible format.
+An interactive [**Tableau dashboard**](https://bit.ly/SOTRProjectGD-Tableau) was developed to present findings in a clear and accessible format.
 
 ---
 
@@ -145,7 +145,7 @@ In summary, Tampa’s trajectory reflects **consistent improvement and resilienc
 
 ### 📊 Dashboard
 
-You can explore the interactive dashboard on [**Tableau Public**](https://bit.ly/DVFinalProjectGD-Tableau).
+You can explore the interactive dashboard on [**Tableau Public**](https://bit.ly/SOTRProjectGD-Tableau).
 
 ---
 
