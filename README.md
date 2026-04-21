@@ -1,83 +1,70 @@
 # 📊 Florida Poverty Trends: Where Does Tampa Stand?
 
-An analysis of poverty rate trends across Florida counties using publicly available U.S. Census Bureau data, with a focus on **Tampa / Hillsborough County** and its performance over time compared with other major regions in Florida.
+As Florida continues to grow rapidly, not all regions benefit equally from economic expansion. Beneath the surface of population growth and development lies an important question:
 
-The work includes multi-year data extraction, cleaning, county-level comparison, trend analysis, dashboard development in Tableau Public, and a one-page executive summary.
+**How has poverty evolved across Florida counties - and where does Tampa stand in that story?**
 
----
-
-## 🌍 Introduction
-
-Poverty trends offer an important view into the economic and social conditions of a region. In a fast-growing state like Florida, county-level differences can reveal how unevenly growth, opportunity, and resilience are distributed.
-
-This analysis focuses on poverty rate trends across selected Florida counties over multiple years, with **Hillsborough County (Tampa)** as the central point of comparison. The analysis looks at long-term movement in poverty rates, relative standing among peer counties, and patterns before and after the COVID-19 period.
+This project explores **multi-year poverty trends** across selected Florida counties, with a focused lens on **Hillsborough County (Tampa)**. By analyzing over a decade of data, the goal is to understand how poverty has shifted over time, how Tampa compares to its peers, and how the COVID-19 pandemic influenced these patterns.
 
 ---
 
-## 🧭 Project Overview
+### 🧭 Project Overview
 
-This repository contains a county-level poverty trend analysis built using data from the **U.S. Census Bureau API**.
+This analysis began with a simple objective: move beyond static figures and uncover **how poverty trends change over time at the county level**.
 
-The dataset covers multiple years of poverty rate estimates for Florida counties and is structured to support year-over-year comparison. Hillsborough County is compared with a selected group of counties chosen for regional relevance, economic diversity, and comparative value.
+Using data from the **U.S. Census Bureau’s American Community Survey**, a structured dataset was developed spanning **2012 to 2024**, enabling consistent year-over-year comparisons. Hillsborough County serves as the focal point of the analysis and is compared with a carefully selected set of counties representing diverse regions and economic conditions across Florida.
 
-The final materials included in this repository are:
-
-- Python script
-- cleaned and structured poverty rate data
-- Tableau dashboard assets
-- executive summary report
+The project brings together **data extraction, cleaning, analysis, and visualization** to tell a cohesive story through both numbers and interactive dashboards.
 
 ---
 
-## 🎯 Objectives
+### 🎯 Objectives
 
-- Extract poverty rate data for Florida counties from the **U.S. Census Bureau API**
-- Focus on **Hillsborough County (Tampa)** and selected peer counties
-- Maintain consistent multi-year coverage across all included regions
-- Prepare the data for comparison and visualization
-- Present the findings through a Tableau Public dashboard
+This project is designed to address the following key questions:
+
+- How has poverty in **Hillsborough County (Tampa)** evolved over time?
+- How does Tampa compare with other Florida counties?
+- What impact did the **COVID-19 period** have on poverty trends?
+- Which counties demonstrate stronger or weaker recovery patterns?
 
 ---
 
-## 🗂️ Repository Structure
+### 🗂️ Repository Structure
 
-```bash
+```
 .
+├── code/
+│   └── script.py                               # Python script for data extraction and processing
 ├── data/
-│   ├── raw/
-│   └── processed/
-├── dashboard/
-│   ├── images/
-│   └── notes/
+│   ├── Florida-Poverty-Data-2012–2024.xlsx     # Final cleaned dataset
+│   └── Florida-Map.png                         # Map image
 ├── reports/
-│   └── executive-summary/
-├── scripts/
-├── notebooks/
-└── README.md
+│   └── Summary-Report.pdf/                     # Summary of key findings and insights
+└── README.md                                   # Project documentation
 ```
 
 ---
 
-## 🛠️ Tools & Technologies
+### 🛠️ Tools & Technologies
 
-- **Python** 🐍
-- **Pandas**
-- **Excel** 📗
-- **Tableau Public** 📈
-- **GitHub** 💻
+To bring this analysis to life, the following tools were used:
+
+- **Python** for data extraction, preprocessing and manipulation
+- **Excel** for clean data output and Tableau ingestion
+- **Tableau** for visualization and storytelling  
+- **GitHub** for version control and project organization
 
 ---
 
-## 📚 Data Sources
+### 📚 Data Sources
+📎 [**U.S. Census Bureau API**](https://data.census.gov/table?q=s1701)
 
-### U.S. Census Bureau API
-County-level poverty rate data was retrieved from the **U.S. Census Bureau API**, using American Community Survey datasets.
+- **Metric Used:** Poverty Rate (%)  
+- **Time Frame:** 2012 – 2024  
 
-### Metric used
-- **Poverty Rate (%)**
+#### 📍 Counties Included
 
-### Counties included
-- Hillsborough
+- Hillsborough (Tampa)
 - Alachua
 - St. Johns
 - Citrus
@@ -90,95 +77,90 @@ County-level poverty rate data was retrieved from the **U.S. Census Bureau API**
 - Sarasota
 - Manatee
 
-![Dashboard Preview](path/to/your-image.png)
+These counties were selected to represent a mix of **urban, suburban, and regional economies**, enabling meaningful comparison.
 
-### Time frame
-- **2012–2024**
+![Dashboard Preview](path/to/your-image.png)
 
 ---
 
-## 🔄 Workflow
+### 🔄 Methodology
 
-### 1. Data Extraction
-Multi-year poverty rate data for Florida counties was retrieved from the **U.S. Census Bureau API**.
+#### 1. Data Extraction  
+Multi-year poverty data was collected directly from the Census API to ensure consistency and reliability.
 
-### 2. Data Cleaning
-The extracted data was cleaned and standardized for consistency in county names, formatting, and year-over-year comparison.
+#### 2. Data Cleaning  
+The dataset was standardized to address naming inconsistencies, formatting variations, and missing values.
 
-### 3. Data Structuring
-The final dataset was arranged with:
-- **rows** as years
-- **columns** as counties
-- **values** as poverty rates
+#### 3. Data Structuring  
+The dataset was organized to support time-series analysis:
+- Rows represent years  
+- Columns represent counties  
+- Values represent poverty rates  
 
-### 4. Comparative Analysis
-Hillsborough County was compared with selected Florida counties to evaluate:
-- trend movement over time
-- county-level differences
-- relative standing
-- changes across pre- and post-pandemic years
+#### 4. Comparative Analysis  
+Hillsborough County was evaluated against peer counties to assess:
+- Long-term trend movement  
+- Relative standing  
+- Regional variation  
+- Differences across pre- and post-pandemic periods  
 
-### 5. Dashboard Development
-A Tableau Public dashboard was created to present the trends through interactive and visual comparison.
+#### 5. Visualization  
+An interactive **Tableau dashboard** was developed to present findings in a clear and accessible format.
 
 ---
 
 ## 🔍 Key Findings
 
-### 📉 Tampa showed steady improvement
-Hillsborough County recorded a gradual decline in poverty over time.
+The analysis of poverty trends across selected Florida counties highlights several important patterns, particularly in relation to **Hillsborough County (Tampa)**.
 
-### 🏅 Hillsborough remained in the middle tier
-Among the selected counties, Hillsborough generally ranked around the middle.
+### 📉 Steady Improvement
+Hillsborough County experienced a **consistent decline in poverty rates**, decreasing from **17.2% in 2014 to 13.2% in 2023**. This trend reflects sustained socio-economic progress over the past decade.
 
-### 🌤️ Tampa stayed relatively stable during disruption
-The poverty trend remained comparatively steady through the COVID-19 period.
+### 🏅 Competitive Standing
+Among the 12 counties analyzed, Hillsborough typically ranked **7th–8th**, placing it in the **middle tier**. While it does not yet match top-performing counties such as St. Johns and Sarasota, it demonstrates relatively strong performance.
 
-### 🚀 Recovery after the pandemic was consistent
-Recent years show a more stable recovery pattern in Hillsborough than in several peer counties.
+### 🌤️ Stability During COVID-19
+Despite economic disruptions during **2020–2021**, Hillsborough County maintained **relatively stable poverty levels**, showing resilience compared to several peer counties.
 
-### 🏙️ Hillsborough performed better than some larger metros
-The comparison shows stronger trend performance than counties such as Miami-Dade in multiple years.
+### 🚀 Post-Pandemic Recovery
+A comparison across **2019 (pre-pandemic), 2021 (during/post-pandemic), and 2023 (recent)** indicates that Hillsborough experienced a **faster and more stable recovery** than many other counties.
 
----
-
-## 📊 Dashboard
-
-The Tableau dashboard presents county-level poverty trends across Florida, with emphasis on **Tampa / Hillsborough County**.
-
-### Dashboard includes
-- year-over-year poverty rate trends
-- Hillsborough-focused comparison
-- county-level filtering
-- trend highlights and annotations
-- labels and notes for interpretation
-
-🔗 **Tableau Public Link:**  
-[Insert Tableau Public Dashboard Link Here]
-
-🖼️ **Image placeholder:**  
-Replace the image path at the top of this README with your dashboard screenshot.
-
-Example:
-```md
-![Dashboard Preview](dashboard/images/tableau-dashboard.png)
-```
+### 🏙️ Relative Performance Against Major Counties
+Hillsborough consistently **outperformed larger metropolitan counties**, including Miami-Dade, in multiple years.
 
 ---
 
-## 💾 Code Repository
+## 📊 Interpretation
 
-This repository includes the files used for:
-- data extraction
-- data preparation
-- county-level analysis
-- dashboard creation
-- summary reporting
+Overall, Hillsborough County occupies a **middle-tier position** among Florida counties in terms of poverty reduction. While it has not yet reached the performance levels of leading counties, it demonstrates **steady and resilient progress** over time.
+
+Factors such as **economic diversification**, growth in sectors like healthcare and technology, and **infrastructure development** have likely contributed to this stability. However, challenges such as **rising housing costs** and **rapid population growth** may influence future trends.
+
+In summary, Tampa’s trajectory reflects **consistent improvement and resilience within a competitive and evolving economic landscape**.
 
 ---
 
-## 🤝 Let’s Connect
+### 📊 Dashboard
 
-- **LinkedIn:** [Insert your LinkedIn link here]
-- **Tableau Public:** [Insert your Tableau Public profile link here]
-- **GitHub:** [Insert your GitHub profile link here]
+You can explore the interactive dashboard on [**Tableau Public**](https://bit.ly/DVFinalProjectGD-Tableau).
+
+---
+
+### 💻 Code Repository
+
+All data scripts and outputs are available in the `/code/` folder of this [**GitHub Repository**](https://bit.ly/DVFinalProjectGD-GitHub).
+
+---
+
+### 🤝 Let’s Connect
+
+If diving into data to uncover social trends or spark meaningful conversations sounds like your thing, let’s connect on [**LinkedIn!**](https://www.linkedin.com/in/gopidodda96/)
+
+---
+
+### 📌 License
+
+This project is for academic and educational use. Please credit original data sources when reusing any content or dataset from this repository.
+
+---
+
