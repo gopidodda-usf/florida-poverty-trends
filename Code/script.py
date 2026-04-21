@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 
-api_key = 'affdac5f248f69b65c935406621fe7ca9e349a23'
+api_key = YOUR_API_KEY
 years = list(range(2012,2025))
 fl_fips_code = 12
 
