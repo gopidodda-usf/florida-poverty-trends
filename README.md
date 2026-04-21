@@ -33,12 +33,16 @@ This project is designed to address the following key questions:
 
 ```
 .
-├── code/
+├── Code/
 │   └── script.py                               # Python script for data extraction and processing
-├── data/
-│   ├── Florida-Poverty-Data-2012–2024.xlsx     # Final cleaned dataset
+├── Data/
+│   └── Florida-Poverty-Data-2012–2024.xlsx     # Final cleaned dataset
+├── Images/
+│   ├── Chart-1.png                             # Tableau Chart
+│   ├── Chart-2.png                             # Tableau Chart
+│   ├── Chart-3.png                             # Tableau Chart
 │   └── Florida-Map.png                         # Map image
-├── reports/
+├── Report/
 │   └── Summary-Report.pdf/                     # Summary of key findings and insights
 └── README.md                                   # Project documentation
 ```
@@ -105,7 +109,7 @@ Hillsborough County was evaluated against peer counties to assess:
 - Differences across pre- and post-pandemic periods  
 
 #### 5. Visualization  
-An interactive **Tableau dashboard** was developed to present findings in a clear and accessible format.
+An interactive [**Tableau dashboard**](https://bit.ly/DVFinalProjectGD-Tableau) was developed to present findings in a clear and accessible format.
 
 ---
 
@@ -148,7 +152,7 @@ You can explore the interactive dashboard on [**Tableau Public**](https://bit.ly
 
 ### 💻 Code Repository
 
-All data scripts and outputs are available in the `/code/` folder of this [**GitHub Repository**](https://bit.ly/DVFinalProjectGD-GitHub).
+Data script is available in the `/Code/` folder of this [**GitHub Repository**](https://bit.ly/DVFinalProjectGD-GitHub).
 
 ---
 
